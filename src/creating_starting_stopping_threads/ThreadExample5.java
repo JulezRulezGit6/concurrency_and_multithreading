@@ -6,7 +6,6 @@ public class ThreadExample5 {
         Thread thread = new Thread(() ->
                 System.out.println("MyThread Running\n" +
                         "MyThread Finished"));
-
         thread.start();
     }
 }

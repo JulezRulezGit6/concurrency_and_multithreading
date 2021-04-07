@@ -10,6 +10,7 @@ public class ThreadExample4 {
                         "MyThread Finished");
             }
         };
+        String name = Thread.currentThread().getName();
         Thread thread = new Thread(runnable);
         thread.start();
     }
